@@ -41,7 +41,7 @@ Simulator for a reduced x86-64 ISA
 | halt | 0 0 | NA | NA |
 | nop | 1 0 | NA | NA |
 | cmovXX rA, rB | 2 fn | rA rB | NA |
-| irmovq V, rB | 3 0 | |F rB | V |
+| irmovq V, rB | 3 0 | F rB | V |
 | rmmovq rA, D(rB) |  0 | rA rB | D |
 | mrmovq D(rB), rA | 5 0 | rA rB | D |
 | OPq rA, rB | 6 fn | rA rB | NA |
